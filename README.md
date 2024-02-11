@@ -1,4 +1,4 @@
-```
+
 # Shortest Job First (SJF) Algorithm Implementation in Java using Stack
 
 This repository contains an implementation of the Shortest Job First (SJF) scheduling algorithm in Java utilizing the stack data structure. The SJF algorithm is a non-preemptive scheduling algorithm that selects the waiting process with the smallest execution time to execute next.
@@ -43,4 +43,4 @@ Special thanks to all contributors who have helped to improve this implementatio
 ## References
 - [Shortest Job First Scheduling Algorithm](https://en.wikipedia.org/wiki/Shortest_job_next)
 - [Java Documentation](https://docs.oracle.com/en/java/)
-```
+
