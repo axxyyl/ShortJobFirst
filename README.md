@@ -1,7 +1,46 @@
-# ShortJobFirst
+```
+# Shortest Job First (SJF) Algorithm Implementation in Java using Stack
 
-The ShortJobFirst class uses a MyQueueLinked object to store a queue of Job objects. The setReadyQ method adds a Job to the readyQ queue in a way that maintains the order of the jobs based on their size. The displayRQ method iterates over the elements in the readyQ queue and prints out information about each Job object using the jobDisplayFormat method. This code could be used to simulate a scheduling algorithm that prioritizes short jobs over longer ones.
+This repository contains an implementation of the Shortest Job First (SJF) scheduling algorithm in Java utilizing the stack data structure. The SJF algorithm is a non-preemptive scheduling algorithm that selects the waiting process with the smallest execution time to execute next.
 
-This code defines a class named ShortJobFirst that contains several static methods. The jobDisplayFormat method takes in a Job object and prints out some information about it in a specific format. The displayRQ method iterates over the elements in a MyQueueLinked object called readyQ and prints out information about each Job object using the jobDisplayFormat method. The setReadyQ method takes in a Job object and adds it to the readyQ queue in a specific way. Finally, the main method creates an array of Job objects and adds each one to the readyQ queue using the setReadyQ method. It then displays the contents of the readyQ queue using the displayRQ method.
+## Features
+- **Java Implementation**: The algorithm is implemented in Java, making it platform-independent and easily accessible.
+- **Stack Data Structure**: The implementation utilizes the stack data structure to efficiently manage the sequence of processes based on their execution time.
+- **Educational Resource**: This repository serves as a practical example for understanding scheduling algorithms and stack data structures in Java.
 
-<img src="https://6a6feeae-6e2b-49df-9ed4-2480d42a5083.id.repl.co/images/p3.png"/>
+## Tags
+#java #algorithm #stack #scheduling #education
+
+## How to Use
+To use this implementation, follow these steps:
+
+1. Clone the repository to your local machine using the following command:
+   ```
+   git clone <repository_url>
+   ```
+
+2. Navigate to the directory containing the Java files.
+
+3. Compile the Java files using the Java compiler. For example:
+   ```
+   javac SJFAlgorithm.java
+   ```
+
+4. Run the compiled Java program. For example:
+   ```
+   java SJFAlgorithm
+   ```
+
+## Contributions
+Contributions to enhance the implementation or documentation are welcome. Please feel free to submit a pull request or open an issue if you encounter any problems or have suggestions for improvement.
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgements
+Special thanks to all contributors who have helped to improve this implementation.
+
+## References
+- [Shortest Job First Scheduling Algorithm](https://en.wikipedia.org/wiki/Shortest_job_next)
+- [Java Documentation](https://docs.oracle.com/en/java/)
+```
